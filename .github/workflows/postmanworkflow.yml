@@ -11,4 +11,4 @@ jobs:
         npm install -g newman
     - name: Run tests
       run: |
-        newman run Writing test scripts-postman_collection.json -e testEnvironment.json
+        newman run scripts_postman_collection.json -e testEnvironment.json
